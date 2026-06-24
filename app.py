@@ -36,7 +36,7 @@ st.markdown("""
                 background: linear-gradient(135deg,#1d4ed8,#1e40af);
                 border-radius: 12px; padding: 0.6rem 0.9rem;
                 font-size: 1.8rem; line-height:1;
-            ">🌊</div>
+            ">water</div>
             <div>
                 <p style="color:#3b82f6; font-size:0.75rem; letter-spacing:0.18em; text-transform:uppercase; margin:0 0 0.2rem; font-family:'DM Sans',sans-serif; font-weight:500;">
                     JSSATEB · Data Science Dept.
