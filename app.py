@@ -1,63 +1,11 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Flood Monitoring System",
-    page_icon="🌊",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+st.set_page_config(page_title="Test")
 
 st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
-
-html, body, [class*="css"] {
-    font-family: 'DM Sans', sans-serif;
-    background-color: #07111f;
-}
-
-/* ── Sidebar ── */
-[data-testid="stSidebar"] {
-    background: #050e1a !important;
-    border-right: 1px solid #112240 !important;
-}
-[data-testid="stSidebar"] * { color: #7fa8d4 !important; }
-[data-testid="stSidebar"] .stRadio label { color: #a8c8ef !important; }
-[data-testid="stSidebarNav"] a span { color: #7fa8d4 !important; font-family: 'DM Sans', sans-serif !important; }
-
-/* ── Metrics ── */
-[data-testid="metric-container"] {
-    background: #0a1a2e;
-    border: 1px solid #112240;
-    border-radius: 10px;
-    padding: 1rem 1.2rem;
-}
-[data-testid="metric-container"] [data-testid="stMetricLabel"] { color: #4e7aa8 !important; font-size: 0.78rem !important; }
-[data-testid="metric-container"] [data-testid="stMetricValue"] { color: #e0eeff !important; font-size: 1.5rem !important; font-weight: 700 !important; }
-[data-testid="metric-container"] [data-testid="stMetricDelta"] { color: #3b82f6 !important; }
-
-/* ── Main background ── */
-.main .block-container { background: #07111f; padding-top: 1.5rem; }
-section[data-testid="stSidebar"] > div { padding-top: 1rem; }
-
-/* ── Scrollbar ── */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #050e1a; }
-::-webkit-scrollbar-thumb { background: #1e3a5f; border-radius: 3px; }
-
-/* ── Expander ── */
-.streamlit-expanderHeader { background: #0a1a2e !important; border: 1px solid #112240 !important; border-radius: 8px !important; color: #7fa8d4 !important; }
-.streamlit-expanderContent { background: #0a1a2e !important; border: 1px solid #112240 !important; border-top: none !important; }
-
-/* ── Dataframe ── */
-.stDataFrame { border: 1px solid #112240 !important; border-radius: 8px !important; }
-
-/* ── Selectbox / slider ── */
-.stSelectbox > div > div { background: #0a1a2e !important; border-color: #1e3a5f !important; color: #c8e0f8 !important; }
-.stSlider [data-baseweb="slider"] { color: #3b82f6; }
-</style>
+<h1 style="color:red;">Hello Streamlit!</h1>
+<p>This should appear as HTML, not code.</p>
 """, unsafe_allow_html=True)
-
 # ── Hero ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div style="
